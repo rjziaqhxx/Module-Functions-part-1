@@ -1,10 +1,10 @@
-def func(a,b):
-    if a > b:
-        max = a
-        min = b
+def func(first,last):
+    if first > last:
+        max = first
+        min = last
     else:
-        max = b
-        min = a
+        max = last
+        min = first
     l=[]
     for i in range(min, max+1):
         if i % 2 == 0:
